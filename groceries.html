@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        #app {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #app-title {
+            text-align: center;
+        }
+        
+        .grocery-card {
+            padding: 2vh 6vw;
+            box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 id="app-title">Groceries</h1>
+        <div id="app"></div>
+    </main>
+    <script src="grocery.js"></script>
+</body>
+
+</html>
